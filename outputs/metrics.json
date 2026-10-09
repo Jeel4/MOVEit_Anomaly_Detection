@@ -1,0 +1,58 @@
+{
+  "dataset": {
+    "benign_train": 20000,
+    "benign_validation": 4000,
+    "benign_test": 8000,
+    "attack_test": 400,
+    "features": 15,
+    "synthetic": true
+  },
+  "hybrid_threshold": 0.9725841666666666,
+  "results": [
+    {
+      "Model": "Isolation Forest",
+      "ROC_AUC": 0.990568125,
+      "PR_AUC": 0.9287673327228506,
+      "Precision": 0.8442822384428224,
+      "Recall": 0.8675,
+      "F1": 0.8557336621454994,
+      "FPR": 0.008
+    },
+    {
+      "Model": "Autoencoder",
+      "ROC_AUC": 0.9611084375000001,
+      "PR_AUC": 0.8372711228127869,
+      "Precision": 0.8233618233618234,
+      "Recall": 0.7225,
+      "F1": 0.7696404793608522,
+      "FPR": 0.00775
+    },
+    {
+      "Model": "LOF",
+      "ROC_AUC": 0.9898140625,
+      "PR_AUC": 0.9384458811457612,
+      "Precision": 0.815242494226328,
+      "Recall": 0.8825,
+      "F1": 0.8475390156062425,
+      "FPR": 0.01
+    },
+    {
+      "Model": "One-Class SVM",
+      "ROC_AUC": 0.9879275,
+      "PR_AUC": 0.9351769948559326,
+      "Precision": 0.8793969849246231,
+      "Recall": 0.875,
+      "F1": 0.8771929824561403,
+      "FPR": 0.006
+    },
+    {
+      "Model": "Hybrid (IF + AE + LOF)",
+      "ROC_AUC": 0.9869532812499999,
+      "PR_AUC": 0.9247965037693696,
+      "Precision": 0.8325358851674641,
+      "Recall": 0.87,
+      "F1": 0.8508557457212714,
+      "FPR": 0.00875
+    }
+  ]
+}
