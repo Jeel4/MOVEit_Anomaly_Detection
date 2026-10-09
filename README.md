@@ -63,7 +63,7 @@ The attack-like sessions simulate behavioural patterns associated with the MOVEi
 Replace the URL below with the actual GitHub repository URL after the repository has been created.
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Jeel4/MOVEit_Anomaly_Detection
 cd G30_MOVEit_Anomaly_Detection
 ```
 
