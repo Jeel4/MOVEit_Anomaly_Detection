@@ -168,7 +168,7 @@ These metrics describe one seeded experiment on synthetic data. They should not 
 
 ## 13. Repository
 
-GitHub: 
+GitHub:https://github.com/Jeel4/MOVEit_Anomaly_Detection
 
 ## 14. Disclaimer
 
